@@ -195,7 +195,7 @@ RCT_EXPORT_METHOD(startRecording)
 RCT_EXPORT_METHOD(stopRecording)
 {
   [_audioRecorder stop];
-  [_recordSession setActive:NO error:nil];
+  // [_recordSession setActive:NO error:nil];
   _prevProgressUpdateTime = nil;
 }
 
